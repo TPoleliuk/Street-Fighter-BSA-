@@ -1,5 +1,9 @@
 import showModal from './modal';
+import { createFighterImage } from '../fighterPreview';
 
 export default function showWinnerModal(fighter) {
-    // call showModal function
+    const title = `${fighter.name.toUpperCase()} WIN!`;
+    const bodyElement = createFighterImage(fighter);
+
+    showModal({ title, bodyElement });
 }
