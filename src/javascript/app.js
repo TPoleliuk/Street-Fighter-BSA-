@@ -1,5 +1,5 @@
-import createFighters from './components/fightersView';
-import fighterService from './services/fightersService';
+import createFighters from './components/fightersView.js';
+import fighterService from './services/fightersService.js';
 
 class App {
     static rootElement = document.getElementById('root');

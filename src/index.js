@@ -1,4 +1,3 @@
-import App from './javascript/app';
-import './styles/styles.css';
+import App from './javascript/app.js';
 
 App.startApp();

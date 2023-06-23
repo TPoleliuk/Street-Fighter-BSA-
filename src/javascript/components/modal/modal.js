@@ -1,4 +1,4 @@
-import createElement from '../../helpers/domHelper';
+import createElement from '../../helpers/domHelper.js';
 
 function getModalContainer() {
     return document.getElementById('root');

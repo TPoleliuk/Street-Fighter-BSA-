@@ -1,5 +1,5 @@
-import createElement from '../helpers/domHelper';
-import { createFightersSelector } from './fighterSelector';
+import createElement from '../helpers/domHelper.js';
+import { createFightersSelector } from './fighterSelector.js';
 
 function createImage(fighter) {
     const { source, name } = fighter;

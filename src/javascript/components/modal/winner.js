@@ -1,5 +1,5 @@
-import showModal from './modal';
-import createElement from '../../helpers/domHelper';
+import showModal from './modal.js';
+import createElement from '../../helpers/domHelper.js';
 
 export default function showWinnerModal(fighter) {
     const { source, name } = fighter;

@@ -1,8 +1,8 @@
-import createElement from '../helpers/domHelper';
-import renderArena from './arena';
+import createElement from '../helpers/domHelper.js';
+import renderArena from './arena.js';
 import versusImg from '../../../resources/versus.png';
-import { createFighterPreview } from './fighterPreview';
-import fighterService from '../services/fightersService';
+import { createFighterPreview } from './fighterPreview.js';
+import fighterService from '../services/fightersService.js';
 
 const fighterDetailsMap = new Map();
 

@@ -1,4 +1,4 @@
-import createElement from '../helpers/domHelper';
+import createElement from '../helpers/domHelper.js';
 
 export function createFighterImage(fighter) {
     const { source, name } = fighter;

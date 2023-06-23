@@ -1,4 +1,4 @@
-import controls from '../../constants/controls';
+import controls from '../../constants/controls.js';
 
 function isCriticalKick(combination, pressedKey) {
     return combination.every(key => pressedKey.has(key));
