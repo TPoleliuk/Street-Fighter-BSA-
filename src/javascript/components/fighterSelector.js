@@ -28,7 +28,7 @@ function createVersusBlock(selectedFighters) {
     const image = createElement({
         tagName: 'img',
         className: 'preview-container___versus-img',
-        attributes: { src: '../resources/versus.png' }
+        attributes: { src: './resources/versus.png' }
     });
     const disabledBtn = canStartFight ? '' : 'disabled';
     const fightBtn = createElement({
