@@ -1,6 +1,5 @@
 import createElement from '../helpers/domHelper.js';
 import renderArena from './arena.js';
-import versusImg from '../../../resources/versus.png';
 import { createFighterPreview } from './fighterPreview.js';
 import fighterService from '../services/fightersService.js';
 
@@ -29,7 +28,7 @@ function createVersusBlock(selectedFighters) {
     const image = createElement({
         tagName: 'img',
         className: 'preview-container___versus-img',
-        attributes: { src: versusImg }
+        attributes: { src: '../../../resources/versus.png' }
     });
     const disabledBtn = canStartFight ? '' : 'disabled';
     const fightBtn = createElement({
